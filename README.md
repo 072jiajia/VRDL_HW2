@@ -3,8 +3,7 @@ Code for mAP 0.44387 solution in VRDL Homework2
 
 ## Abstract
 In this work, I use EfficientDet I edited as my model<br>
-I changed the input shape from (512, 512) to (128, 128)
-And changed the EfficientNet-b0 to ResNet34
+I changed the input shape from (512, 512) to (128, 128) and changed EfficientNet-b0 to ResNet34<br>
 Also, My feature pyramid has only 4 feature maps with shape (64, 64), (32, 32), (16, 16), (8, 8) 
 
 ## Reference
@@ -87,7 +86,7 @@ It will generate a file named submission.json and it is my prediction whose mAP 
 ## Train and Make Prediction
 You can simply run the following command to train your models and make submission.
 ```
-$ python main.py --exp_name={your exp_name}
+$ python train.py --exp_name={your exp_name}
 ```
 
 The expected training time is:
