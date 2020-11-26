@@ -1,0 +1,11 @@
+wheel==0.35.1
+typing-extensions==3.7.4.3
+torchvision==0.8.1
+torch==1.7.0
+setuptools==50.3.2
+pip==20.2.4
+Pillow==8.0.1
+opencv-python==4.4.0.46
+numpy==1.19.4
+future==0.18.2
+dataclasses==0.8
