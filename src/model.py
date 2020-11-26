@@ -124,7 +124,7 @@ class BiFPN(nn.Module):
 
 
 class Regressor(nn.Module):
-    ''' Regressor to obtain the offset and the rescaling 
+    ''' Regressor to obtain the offset and the rescaling
     factor of anchors
     '''
 
@@ -273,7 +273,7 @@ class EfficientDet(nn.Module):
         - Training: Get 2 Inputs, one is for images and
                 another is for annotations
             Output the Loss directly
-        - Testing: 
+        - Testing:
             Input is one image
             Return the prediction bounding boxes, classes, scores
         '''
