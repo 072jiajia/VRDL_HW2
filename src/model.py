@@ -338,4 +338,3 @@ class EfficientDet(nn.Module):
             nms_idx = nms(scored_anchors[0, :, :], 0.5)
             nms_scores, nms_class = classification[0, nms_idx, :].max(dim=1)
             return [nms_scores, nms_class, transformed_anchors[0, nms_idx, :]]
-
