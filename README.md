@@ -57,7 +57,10 @@ VRDL_HW2
   +- train.py
   +- util.py
 ```
-
+And run the following command to prepare annotations of training data and validation data
+```
+python3 prepare.py
+```
 ## Pretrained models
 You can download pre-trained model that used for my submission from this [link](https://drive.google.com/file/d/128f_l55fRxIXO-HkBsqUppC_a-ONF5Lg/view?usp=sharing)<br>
 And put it into the following directory:
