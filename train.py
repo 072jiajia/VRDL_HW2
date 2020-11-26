@@ -24,12 +24,12 @@ def get_args():
     parser.add_argument("--num_epochs", type=int,
                         default=200)
     parser.add_argument("--expname", type=str,
-                        default='EFFDet', help="experiment name")
+                        default='EXP', help="experiment name")
     parser.add_argument("--resume", type=str,
                         default="/checkpoint.pth.tar",
                         help="resume checkpoint")
     parser.add_argument("--best", type=str,
-                        default="/bestmodel.pth.tar", help="best model")
+                        default="/HW2model.pth.tar", help="best model")
     parser.add_argument("--io", type=str,
                         default="/run.log")
 
