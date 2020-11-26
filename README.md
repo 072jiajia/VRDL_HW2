@@ -3,7 +3,7 @@ Code for mAP 0.44387 solution in VRDL Homework 2
 
 ## Abstract
 In this work, I use EfficientDet I edited as my model<br>
-I changed the input shape from (512, 512) to (128, 128) and changed EfficientNet-b0 to ResNet34<br>
+I changed the input image size from (512, 512) to (128, 128) and changed EfficientNet-b0 to ResNet34<br>
 Also, My feature pyramid has only 4 feature maps with shape (64, 64), (32, 32), (16, 16), (8, 8) 
 
 ## Reference
