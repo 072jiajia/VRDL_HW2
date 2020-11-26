@@ -1,5 +1,5 @@
 # VRDL Homework 2
-Code for mAP 0.44387 solution in VRDL Homework2
+Code for mAP 0.44387 solution in VRDL Homework 2
 
 ## Abstract
 In this work, I use EfficientDet I edited as my model<br>
@@ -65,7 +65,7 @@ python3 prepare.py
 You can download pre-trained model that used for my submission from this [link](https://drive.google.com/file/d/128f_l55fRxIXO-HkBsqUppC_a-ONF5Lg/view?usp=sharing)<br>
 And put it into the following directory:
 ```
-VRDL_HW1
+VRDL_HW2
   +- data
   +- EXP
   | +- HW2model.pth.tar
@@ -94,7 +94,7 @@ The expected training time is:
 
 GPUs | Training Epochs | Training Time
 ------------- | ------------- | ------------- 
-4x 2080 Ti | 200 | 13 hours
+3x 2080 Ti | 200 | 13 hours
 
 After finishing training your model, run the following command to make your prediction
 ```
