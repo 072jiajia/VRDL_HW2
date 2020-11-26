@@ -46,6 +46,7 @@ VRDL_HW2
   | | + 1.png
   | | + ...
   | | + 33402.png
+  | | + digitStruct.mat
   | + test
   | | + 1.png
   | | + ...
@@ -86,7 +87,7 @@ It will generate a file named submission.json and it is my prediction whose mAP 
 ## Train and Make Prediction
 You can simply run the following command to train your models and make submission.
 ```
-$ python train.py --exp_name={your exp_name}
+$ python train.py --expname={your experiment's name}
 ```
 
 The expected training time is:
@@ -97,7 +98,7 @@ GPUs | Training Epochs | Training Time
 
 After finishing training your model, run the following command to make your prediction
 ```
-python3 predict.py --exp_name={your exp_name}
+python3 predict.py --expname={your experiment's name}
 ```
 It will generate a file submission.json which is the prediction of the testing dataset<br>
 Use this json file to make your submission!
