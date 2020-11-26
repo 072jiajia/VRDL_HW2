@@ -19,9 +19,9 @@ def get_args():
     ''' get arguments '''
     parser = argparse.ArgumentParser("EfficientDet")
     parser.add_argument("--expname", type=str,
-                        default='EFFDet', help="experiment name")
+                        default='EXP', help="experiment name")
     parser.add_argument("--best", type=str,
-                        default="/bestmodel.pth.tar", help="best model")
+                        default="/HW2model.pth.tar", help="best model")
 
     args = parser.parse_args()
     args.best = args.expname + args.best
